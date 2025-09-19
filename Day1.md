@@ -35,7 +35,7 @@ Output:
 
 **Code (Python):**
 ```python
-# def check(n,k,max):
+def check(n,k,max):
   if k<=max:
     temp=int(str(n)[::-1])
     sum=n+temp
